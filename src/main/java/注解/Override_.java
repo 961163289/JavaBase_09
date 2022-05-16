@@ -1,4 +1,4 @@
-package 枚举;
+package 注解;
 
 public class Override_ {
     public static void main(String[] args) {
@@ -33,7 +33,7 @@ class Son extends Father {
     */
     @Override
     public void fly() {
-        super.fly();
+        System.out.println("Son fly	");
     }
 
     @Override
